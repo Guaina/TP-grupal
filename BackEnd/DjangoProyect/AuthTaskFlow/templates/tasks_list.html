@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestor de tareas</title>
+</head>
+<body>
+    <h1>Bienvenidos al gestor de tareas</h1>
+    <ul>
+        {% for task in tasks %}
+        <li>{{ task.title }}</li>
+        {% endfor %}
+       </ul>
+</body>
+</html>
